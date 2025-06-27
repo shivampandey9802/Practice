@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar{
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-weight: bold;
+    padding: 10px 0;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: rgb(120, 104, 104);
+    border-bottom: 2px solid black;
+}
+
+.navbar .second{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.content{
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: antiquewhite;
+    font-size: 1.2rem;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 100px;
+}
+.content .left{
+    width: 450px;
+    height: auto;
+    overflow: hidden;
+}
+.content .left p{
+    font-size: 25px;
+}
+.content .left h1{
+    font-size: 3rem;
+    padding-top: 30px;
+}
+.content .right img{
+    width: 450px;
+    height: 450px;
+    overflow: hidden;
+}
+.content .left button{
+    font-size: 0.9rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 5px;
+    margin-left: 3px;
+    margin-bottom: 1px;
+    transition: transform 0.3 ease;
+    font-size: 20px;
+}
+
+.content .left button:hover{
+    transform: scale(1.03);
+}
+span{
+    font-weight: bold;
+}
+hr{
+    border: 2px solid black;
+}
+.down-bold{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+.down-bold div{
+    width: 50%;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+    gap: 20px;
+}
+.grid .grid-content{
+    margin-right: 20px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    /* gap: 20px; */
+    padding: 10px;
+}
+.grid .grid-content p{
+    text-align: center;
+}
+.grid .grid-content img{
+    padding: 10px;
+    width: 60px;
+}
+
+.last {
+    text-align: center;
+}
+.last h1{
+    padding: 30px;
+}
+.last button {
+    font-size: 0.9rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 100px;
+    transition: transform 0.3 ease;
+    font-size: 20px;
+}
+.last button:hover{
+    transform: scale(1.03);
+}
