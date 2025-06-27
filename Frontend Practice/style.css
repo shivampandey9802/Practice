@@ -2,27 +2,35 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 }
 .navbar{
-    font-size: 25px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
     font-weight: bold;
-    padding: 10px 0;
-    position: -webkit-sticky;
+    padding: 8px 0px;
     position: sticky;
     top: 0;
-    background-color: rgb(120, 104, 104);
+    background-color: white;
     border-bottom: 2px solid black;
+}
+.navbar div{
+    font-family: "DM Serif Display", serif;
+    font-size: 25px;
+    margin-left: 13.2%;
 }
 
 .navbar .second{
+    font-family: Archivo, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
     display: flex;
     justify-content: space-around;
     gap: 20px;
     flex-wrap: wrap;
+    margin-right: 13.2%;
 }
 .content{
     font-size: 25px;
@@ -34,6 +42,7 @@
     gap: 20px;
     flex-wrap: wrap;
     padding: 100px;
+    border-bottom: 2px solid;
 }
 .content .left{
     width: 450px;
@@ -44,6 +53,7 @@
     font-size: 25px;
 }
 .content .left h1{
+    font-family: "DM Serif Display", serif;
     font-size: 3rem;
     padding-top: 30px;
 }
@@ -53,26 +63,39 @@
     overflow: hidden;
 }
 .content .left button{
+    font-family: Archivo, sans-serif;
+    font-weight: 600;
     font-size: 0.9rem;
     border: 2px solid black;
-    border-radius: 10px;
-    padding: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
     margin-top: 20px;
     margin-right: 5px;
     margin-left: 3px;
     margin-bottom: 1px;
     transition: transform 0.3 ease;
-    font-size: 20px;
+    font-size: 15px;
+    background-color: antiquewhite;
+}
+#view-btn{
+    background-color: white;
+}
+#view-btn:hover{
+    background-color: black;
+    color: white;
 }
 
 .content .left button:hover{
     transform: scale(1.03);
+    background-color: black;
+    color: white;
 }
 span{
     font-weight: bold;
 }
 hr{
-    border: 2px solid black;
+    border: none;
+
 }
 .down-bold{
     display: flex;
@@ -119,14 +142,22 @@ hr{
     padding: 30px;
 }
 .last button {
+    font-family: Archivo, sans-serif;
+    font-weight: 600;
     font-size: 0.9rem;
     border: 2px solid black;
-    border-radius: 10px;
-    padding: 10px;
-    margin-bottom: 100px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 5px;
+    margin-left: 3px;
+    margin-bottom: 1px;
     transition: transform 0.3 ease;
-    font-size: 20px;
+    font-size: 15px;
+    /* background-color: white; */
 }
 .last button:hover{
     transform: scale(1.03);
+    background-color: black;
+    color: white;
 }
